@@ -1,0 +1,112 @@
+
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.6;
+    background-color: #8fb8ff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #448fd4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #ffffff;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+    margin: 0 auto 20px;
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info, .experiences, .interests, .favorite-song {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #8fb8ff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+    border-bottom: 1px solid #ccc;
+}
+
+.contact-info h2 {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    display: block;
+    text-align: center;
+}
+
+.contact-info a:hover {
+    color: #ffffff;
+}
+
+.experiences h2, .interests h2, .favorite-song h2 {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.experiences p, .interests p, .favorite-song p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+audio {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.interest-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.interest-images img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
